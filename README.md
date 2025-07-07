@@ -35,9 +35,7 @@ Open your browser at http://127.0.0.1:5000
 
 🌐 Deploy on Render (Free)
 1. Push to GitHub
-bash
-Copy
-Edit
+
 git init
 git add .
 git commit -m "Initial commit"
@@ -56,15 +54,10 @@ Add environment variable:
 PORT = 10000 (used by render.yaml)
 
 🐳 Run with Docker
-bash
-Copy
-Edit
+
 docker build -t web-to-epub .
 docker run -p 5000:5000 web-to-epub
 📦 File Structure
-graphql
-Copy
-Edit
 web_to_epub/
 ├── app.py                 # Flask backend
 ├── requirements.txt       # Python dependencies
