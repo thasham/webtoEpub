@@ -1,0 +1,7 @@
+Flask
+ebooklib
+newspaper3k
+requests
+Pillow
+lxml_html_clean
+gunicorn
